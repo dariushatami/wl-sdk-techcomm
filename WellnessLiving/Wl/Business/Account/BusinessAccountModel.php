@@ -20,11 +20,11 @@ class BusinessAccountModel extends WlModelAbstract
   public $a_business_keys = [];
 
   /**
-   * `true` returns WellnessLiving customers.
+   * If `true`, existing customers are returned.
    *
-   * `false` returns prospects.
+   * If `false`, prospects are returned.
    *
-   * Test and churned businesses are never returned.
+   * Note that test and churned businesses are never returned.
    *
    * @get get
    * @var bool
